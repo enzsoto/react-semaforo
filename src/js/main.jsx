@@ -10,9 +10,10 @@ import '../styles/index.css'
 
 // components
 import Home from './components/Home';
+import TrafficLigth from './components/TrafficLight';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <TrafficLigth />
   </React.StrictMode>,
 )
